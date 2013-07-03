@@ -1,0 +1,11 @@
+<h1>Are You Sure You Want To Delete This Post</h1>
+<br><br>
+<div id='delete_links'>
+<form id='delete' action='/delete' method='post'>
+<input type='hidden' name='id' value="<%=@post.id%>">
+<input type='hidden' name='_method' value='delete'>
+<input type='submit' value='Delete Note'>
+</form>  
+<br><br>
+<a href="/">No Don't Do It I Changed My Mind</a>
+</divs>

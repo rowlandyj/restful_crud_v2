@@ -7,3 +7,48 @@
 th {
   text-align: left;
 }
+
+h1, h2, .home, .post_headers, #delete_links{
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  width: 30%;
+}
+
+#post_display {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 5px;
+  padding-bottom: 0;
+  width: 20%;
+  text-align: center;
+}
+
+#content {
+  border: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+#index_poster_name {
+  text-decoration: underline;
+  margin: 0;
+}
+
+a:nth-child(3) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 2px 0 2px;
+}
+
+#delete {
+  width: 0%;
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+<div class='post_headers'>
+<h1><%=@post.title%></h1>
+
+<h2>Posted by: <%=@post.poster_name%></h2>
+<p>Content: </p> <br>
+<p id='content'><%=@post.content%></p>
+<br><br>
+<p>created at: <%=@post.created_at%></p>
+<p>updated_at: <%=@post.updated_at%></p>
+</div>
+
+
+<footer class='home'>
+<a href="/edit_post/<%=@post.id%>">Edit<a>
+<a href="/delete_post/<%=@post.id%>">Delete<a>
+<a href='/'>Home</a>
+</footer>
